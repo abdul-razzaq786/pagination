@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  justify-content:center;
+}
+
+.tableSection{
+  margin: 0 auto;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  background-color:blueviolet;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  margin: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+}
+
+table{
+  width: 100%;
+  margin:10px;
+}
+
+thead{
+  background-color:gold;
+}
+
+th,td{
+  padding: 5px 0;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+tbody tr:nth-child(even) {
+  background-color: white;
+}
